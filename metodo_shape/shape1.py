@@ -332,6 +332,10 @@ class Triangle(Shape):
         except AmountDataError as e:
             return None
 
+#Triangle subclasses, by the way they are defined, require that an exception be
+# created that ignores if a Type error is thrown, since the functions of the
+# parent classes already handle the error correctly.
+
 class Isosceles(Triangle):
     def __init__(self, vertices:List[Point]):
         try:
