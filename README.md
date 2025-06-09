@@ -1,7 +1,7 @@
-Los paquetes poseen módulos con las exepciones especiales creadas, el módulos
+Los paquetes poseen módulos con las exepciones especiales creadas, el módulo
 shape1 posee comentarios para las exepciones aplicadas y en el main.py se pueden
-probar las exepciones (para shape1 hay un ejemplo con triángulo equilatero de
-como funcionan la exepciones)
+probar las excepciones (para shape1 hay un ejemplo con triángulo equilatero de
+como funcionan la excepciones)
 ```python
 from metodo_shape.shape1 import (
     Point, Line, Rectangle, Square,
